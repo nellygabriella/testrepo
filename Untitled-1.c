@@ -3,5 +3,12 @@
 int main(){
 
     printf("Hello World!!");
-	printf("I feel great!");
+	printf("\nI feel great!");
+
+	printf("\n%d",add(1,2));
+}
+
+int add(int a, int b)
+{
+    return a+b;
 }
